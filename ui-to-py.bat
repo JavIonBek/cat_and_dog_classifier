@@ -1,0 +1,1 @@
+pyuic5.exe img.ui -o ui.py
