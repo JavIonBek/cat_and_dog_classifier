@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Cat and Dog classifier. From Javlonbek"))
-        MainWindow.setWindowIcon(QtGui.QIcon('pets.png'))
+        MainWindow.setWindowIcon(QtGui.QIcon('logo.png'))
         self.pushButton_2.setToolTip(_translate("MainWindow", "<html><head/><body><p>Predict image</p></body></html>"))
         self.pushButton_2.setText(_translate("MainWindow", "Predict"))
         self.pushButton.setToolTip(_translate("MainWindow", "<html><head/><body><p>Load image</p></body></html>"))
